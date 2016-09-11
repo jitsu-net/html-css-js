@@ -1,0 +1,189 @@
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    width: 100%;
+}
+
+p {
+    width: 90%;
+    margin: auto;
+}
+
+h1 {
+    font-size: 175%;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+section {
+    padding: 0px;
+    width: auto;
+    height: auto;
+    border: 1px solid black;
+    background: LightGrey;
+    margin: 2px 2px 2px 2px;
+}
+
+section > header {
+    position: relative;
+    top: -1px;
+    right: -1px;
+    border: 1px solid black;
+    float: right;
+    width: 20%;
+    height: 50px;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    vertical-align: middle;
+}
+section > header > h1 {
+    font-size: 125%;
+}
+section>header.chicken {
+    background: Tan;
+}
+section>header.beef {
+    background: Yellow;
+}
+section>header.sushi {
+    background: Salmon; /* Naturally */
+}
+
+section > article {
+    border: none;
+    margin: 50px auto 50px auto;
+}
+
+/*** Large Devices - aka Dekstop ***/
+@media (min-width: 992px) {
+    .col-lg-01, .col-lg-02, .col-lg-03, .col-lg-04, .col-lg-05, .col-lg-06, .col-lg-07, .col-lg-08, .col-lg-09, .col-lg-10, .col-lg-11, .col-lg-12 {
+        float: left;
+    }
+    .col-lg-01 {
+        width: 8.33%;
+    }
+    .col-lg-02 {
+        width: 16.66%;
+    }
+    .col-lg-03 {
+        width: 25%;
+    }
+    .col-lg-04 {
+        width: 33%;
+    }
+    .col-lg-05 {
+        width: 41.66%;
+    }
+    .col-lg-06 {
+        width: 50%;
+    }
+    .col-lg-07 {
+        width: 58.33%
+    }
+    .col-lg-08 {
+        width: 66.66%
+    }
+    .col-lg-09 {
+        width: 74.99%
+    }
+    .col-lg-10 {
+        width: 83.33%;
+    }
+    .col-lg-11 {
+        width: 91.66%
+    }
+    .col-lg-12 {
+        width: 100%;
+    }
+}
+
+/*** Medium Devices - aka Tablet ***/
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-01, .col-md-02, .col-md-03, .col-md-04, .col-md-05, .col-md-06, .col-md-07, .col-md-08, .col-md-09, .col-md-10, .col-md-11, .col-md-12 {
+        float: left;
+    }
+    .col-md-01 {
+        width: 8.33%;
+    }
+    .col-md-02 {
+        width: 16.66%;
+    }
+    .col-md-03 {
+        width: 25%;
+    }
+    .col-md-04 {
+        width: 33%;
+    }
+    .col-md-05 {
+        width: 41.66%;
+    }
+    .col-md-06 {
+        width: 50%;
+    }
+    .col-md-07 {
+        width: 58.33%;
+    }
+    .col-md-08 {
+        width: 66.66%;
+    }
+    .col-md-09 {
+        width: 74.99%;
+    }
+    .col-md-10 {
+        width: 83.33%;
+    }
+    .col-md-11 {
+        width: 91.66%;
+    }
+    .col-md-12 {
+        width: 100%;
+    }
+}
+
+/*** Small Devices - aka Phone ***/
+@media (max-width: 767px) {
+    .col-sm-01, .col-sm-02, .col-sm-03, .col-sm-04, .col-sm-05, .col-sm-06, .col-sm-07, .col-sm-08, .col-sm-09, .col-sm-10, .col-sm-11, .col-sm-12 {
+        float: left;
+    }
+    .col-sm-01 {
+        width: 8.33%;
+    }
+    .col-sm-02 {
+        width: 16.66%;
+    }
+    .col-sm-03 {
+        width: 25%;
+    }
+    .col-sm-04 {
+        width: 33%;
+    }
+    .col-sm-05 {
+        width: 41.66%;
+    }
+    .col-sm-06 {
+        width: 50%;
+    }
+    .col-sm-07 {
+        width: 58.33%;
+    }
+    .col-sm-08 {
+        width: 66.66%;
+    }
+    .col-sm-09 {
+        width: 74.99%;
+    }
+    .col-sm-10 {
+        width: 83.33%;
+    }
+    .col-sm-11 {
+        width: 91.66%;
+    }
+    .col-sm-12 {
+        width: 100%;
+    }
+}
